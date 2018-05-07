@@ -1,0 +1,25 @@
+<% layout('layout/pattern') -%>
+<% block('title') -%>
+
+  <p style="text-align:center"> Это вы: <%=user.email%></p>
+  <p style="text-align:center">А это все люди на сайте</p>
+  
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Номер</th>
+        <th>E-mail</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <% for (var i=0; i<length; i++) { %>
+          <td><%=i+1%></td>
+          <td><%=users[i].email%></a></td>
+        </tr>
+          <% } %>
+      </tr>
+    </tbody>
+  </table>
+  </div>

@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="css/main.css">
+
+<% layout('layout/pattern') -%>
+<% block('title') -%>
+
+<div class="container">
+<form class="logform" action="/login" method="POST" name="signupForm">
+  <h2 class="text-center formHead animated bounceInDown">Вход</h2><br>
+  <input type="email" name="username" class="form-control" placeholder="Введите E-mail"/>
+  <input type="password" name="password" class="form-control" placeholder="Введите пароль">
+  <button class="btn btn-lg btn-primary btn-block loginbtn" type="submit">Войти</button>
+  <div class="reset-links text-center">
+  <a href="/registration">Регистрация</a>
+  </div>
+</form>
+  </div>

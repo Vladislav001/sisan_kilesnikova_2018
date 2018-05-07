@@ -1,0 +1,26 @@
+body {
+  background: #042037;
+}
+
+.logform {
+  margin-top: 100px;
+  max-width: 400px;
+  padding: 15px 35px 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0,.1);
+}
+
+.form-control
+{
+  margin-bottom: 15px;
+}
+
+.container {
+  margin-top: 100px;
+}
+.reset-links {
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
