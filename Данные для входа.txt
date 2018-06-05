@@ -1,0 +1,13 @@
+Адрес сайта:https://startup-2018-kolesnikova.herokuapp.com/
+
+Почта mail.ru
+Startup0010v@mail.ru
+somepassword001
+
+mLab(привязана к почте выше)
+Account Name: Startup001
+Email: startup0010v@mail.ru
+Username: Startup001
+Password: somepassword001
+
+Если mlab или сайт не открывается - заходите либо под vpn, либо под top (т.к РКН ебанулся)

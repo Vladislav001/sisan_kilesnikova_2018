@@ -40,6 +40,7 @@ app.use(passport.session());
 var initPassport = require('./passport/init');
 initPassport(passport);
 
+
 var routes = require('./routes/index')(passport);
 app.use(flash());
 app.use('/', routes);

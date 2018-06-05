@@ -1,5 +1,5 @@
 exports.get = function(req, res) {
-  res.render('registration', {
+  res.render('tourGuides', {
     user: req.user,
     });
 };

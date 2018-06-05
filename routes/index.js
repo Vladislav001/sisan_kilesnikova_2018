@@ -5,7 +5,9 @@ var isAuthenticated = require('../middleware/isAuthenticated');
 module.exports = function(passport){
 
 
-router.get('/', require('./main').get);
+router.get('/', require('./main', isAuthenticated).get);
+router.get('/tourGuides', require('./tourGuides').get);
+router.get('/reviews', require('./reviews').get);
 router.get('/registration', require('./registration').get);
 router.get('/personalArea', isAuthenticated, require('./personalArea'));
 

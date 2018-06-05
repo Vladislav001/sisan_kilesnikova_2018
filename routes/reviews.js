@@ -1,5 +1,5 @@
 exports.get = function(req, res) {
-  res.render('registration', {
+  res.render('reviews', {
     user: req.user,
     });
 };
